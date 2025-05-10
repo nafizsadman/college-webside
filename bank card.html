@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jtec</title>
+    <link rel="stylesheet" href="bank card.css">
+    <link rel="icon" href="image/IMG_20250507_190539.jpg">
+
+    <!--This is for google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Itim&family=Kablammo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&family=Special+Gothic&display=swap" rel="stylesheet"> 
+
+    <!--This is for Font awasam Icon-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body> 
+    <div class="background"></div>
+    
+    <form action="action.php">
+
+        <!--Column - 1-->
+        <div class="main_all">
+            <div class="content">
+                <div class="main">
+                    <div class="col_1">
+                        <h2>BILLING ADDRESS</h2>
+                        <div class="box">
+                            <label for="name">Full Name :</label>
+                            <br>
+                            <input type="text" name="name" id="name" placeholder="Your Full Name">
+                        </div>
+            
+                        <div class="box">
+                            <label for="email">Email :</label>
+                            <br>
+                            <input type="email" id="email" name="email" placeholder="Someone@gamil.com">
+                        </div>
+            
+                        <div class="box">
+                            <label for="address">Address :</label>
+                            <br>
+                            <input type="text" id="address" name="addrress" placeholder="Room - Street - locality ">
+                        </div>
+            
+                        <div class="box">
+                            <label for="city">City :</label>
+                             <br>
+                            <input type="text" id="city" name="city" placeholder="Your City">
+                        </div>
+            
+                        <div class="box bottom_end">
+                            <div class="box_left">
+                                <label for="state">State :</label>
+                                <br>
+                                <input type="text" id="state" name="state" placeholder="Bangladesh">
+                            </div> 
+                            <div class="box_right">
+                                <label for="zip">Zip Code :</label>
+                                <br>
+                                <input type="text" id="zip" name="zip" placeholder="123 456" pattern="[0-9]">
+                            </div>
+                        </div>
+                    </div>
+                     
+                    <!--Column - 2  -->
+                    <div class="col_2">
+                        <h2>PAYMENT</h2>
+                        <div class="box">
+                            <label for="card">Cards Accepted :</label>
+                            <div class="image">
+                                <img src="image/images.jpeg" alt="Cards Dutch Bangla Bank">
+                                <img src="image/download.jpeg" alt="Cards UCB">
+                                <img src="image/images (1).jpeg" alt="City bank">
+                                <img src="image/BBL-Gold-Credit-Card-Mastercard.png" alt="Card Brack Bank ">
+                            </div>
+                        </div>
+            
+                        <div class="box">
+                            <label for="card name">Name On Card :</label>
+                            <br>
+                            <input type="text" name="card name" id="card name" placeholder="Mr. Karim Hossin">
+                        </div>
+            
+                        <div class="box">
+                            <label for="card_number">Credit Card Number :</label>
+                            <br>
+                            <input type="text" id="card_number" name="card_number" placeholder="1111 2222 3333 4444" pattern="[0-9]{13}">
+                        </div>
+            
+                        <div class="box">
+                            <label for="month">Exp. Month :</label>
+                            <br>
+                            <input type="text" id="month" name="month" placeholder="August">
+                            <datalist list="month" name="month">
+                                <option value="January">
+                                <option value="February">
+                                <option value="March">
+                                <option value="April">
+                                <option value="May">
+                                <option value="June">
+                                <option value="July">
+                                <option value="August">
+                                <option value="September">
+                                <option value="October">
+                                <option value="November">
+                                <option value="December">
+            
+                            </datalist>
+                        </div>
+            
+                        <div class="box bottom_end">
+                            <div class="box_year">
+                                <label for="year">Exp. Year :</label>
+                                <br>
+                                <input type="text" id="year" name="year" placeholder="2025" pattern="[2025-2035]{4}">
+                            </div>
+                            <div class="box_cvv">
+                                <label for="cvv">CVV :</label>
+                                <br>
+                                <input type="text" id="cvv" name="cvv" placeholder="123" pattern="[0-9]{3}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+                <!--Footer button-->
+
+            <div class="left_right">
+                <a href="Index.html">
+                    <div class="left">
+                    <i class="fa-solid fa-angles-left"></i>
+                    Previous 
+                </div>
+                </a>
+                <a href="#">
+                    <div class="right">
+                    <p>Next</p>
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+                </a>
+            </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jtec</title>
+    <link rel="stylesheet" href="dashbord.css">
+    <link rel="icon" href="image/IMG_20250507_190539.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Itim&family=Kablammo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&family=Special+Gothic&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <button type="button" id="btn_1" onclick="myFunction_2()"><i class="fa-solid fa-bars"></i></button>
+            <button type="button" id="btn_2"><i class="fa-solid fa-user-plus"></i></button>
+        </div>
+    </div>
+    <div class="background"></div>
+    <div class="main_content">
+        <div class="col_1">
+            <div class="box">
+                <i class="fa-solid fa-user-tie"></i>
+                <p>Student Information</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <p>Registration</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <p>Running course</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-feather-pointed"></i>
+                <p>Admition</p>
+            </div>
+        </div>
+
+        <div class="col_2">
+            <div class="box">
+                <i class="fa-solid fa-file-lines"></i>
+                <p>Department information</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-book"></i>
+                <p>Faculty subjects</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-retweet"></i>
+                <p>Retake Courses</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-key"></i>
+                <p>Change password</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bar_content" id="bar_content">
+        <div class="content">
+            <button type="button" onclick="myFunction_1()" class="btn">
+                <p>Colse menu </p>
+                <i id="bar_icon" class="fa-solid fa-rectangle-xmark"></i>
+            </button>
+            <a href="bank all.html">
+                <button class="btn">
+                <p>Payment</p>
+                <i id="bar_icon" class="fa-solid fa-money-check-dollar"></i>
+            </button>
+            </a>
+
+            <a href="Index.html">
+            <button class="btn">
+                <p>Home</p>
+                <i id="bar_icon" class="fa-solid fa-house"></i>
+            </button>
+            </a>
+            <button class="bottom">
+                <p>Logout</p>
+                <i class="fa-solid fa-toggle-off"></i>
+            </button>
+        </div>
+    </div>
+    <script>
+        function myFunction_1() {
+            document.getElementById('bar_content').style='display:none';
+        }
+        function myFunction_2() {
+            document.getElementById('bar_content').style='display:block';
+        }
+    </script>
+
+                <!--Footer button-->
+
+            <div class="left_right">
+                <a href="Index.html">
+                    <div class="left">
+                    <i class="fa-solid fa-angles-left"></i>
+                    Previous 
+                </div>
+                </a>
+                <a href="mobile banking.html">
+                    <div class="right">
+                    Next
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+                </a>
+            </div>
+</body>
+</html>

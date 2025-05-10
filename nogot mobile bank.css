@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto" Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+} 
+.background {
+    z-index: -1;
+    width: 100%;
+    height: 300px;
+    border-radius: 0px 0px 80px 80px;
+    background-color: #7ed6df;
+    position: absolute;
+    top: 0;
+    box-shadow: 0px 8px 26px #95afc0;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 60px;
+}
+.content {
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px ;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #6ff1a5;
+    box-shadow: 0px 10px 18px #0c2461;
+}
+input {
+    padding: 8px 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid green;
+}
+input:focus {
+    background-color: #a8d2ed;
+}
+button {
+    padding: 6px 40px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    border: 1px solid seagreen;
+}
+button:hover {
+    background-color: #3498db;
+    box-shadow: 0px 4px 8px #4cd0df;
+    color: #fff;
+}
+input:hover {
+    background-color: #c7ecee;
+}
+#icon_1{
+    opacity: 0.5;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+}
+#icon_2 {
+    opacity: 0.5;
+    position: absolute;
+    top: 135px;
+    right: 70px;
+}
+
+
+/*Footer array */
+
+.left_right {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    bottom: 40px;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.left_right a {
+    text-decoration: none;
+}
+.left, .right {
+    background-color: #3498db;
+    padding: 6px 15px;
+    position: relative;
+    border-radius: 10px;
+    color: #000;
+}
+.left_right i {
+    font-size: 0.8rem;
+}
+.left:hover, .right:hover {
+    background-color: #2980b9;
+    box-shadow: 0px 10px 20px #34495e;
+    color: #fff;
+    cursor: auto;
+    opacity: 1;
+}
+@media screen and (max-width:750px) { 
+    .left_right {
+        position: absolute;
+        top: 500px;
+    }
+}
