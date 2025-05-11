@@ -94,6 +94,6 @@ h2 {
 @media screen and (max-width:750px) { 
     .left_right {
         position: absolute;
-        top: 560px;
+        bottom: 40px;
     }
 }
