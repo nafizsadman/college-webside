@@ -168,6 +168,12 @@ li a, .dropbtn {
 #drop_down {
     padding: 0px 5px;
 }
+@media screen and (max-width:400px) {
+    #drop_down {
+        display: none;
+    } 
+}
+  
   
 
 
