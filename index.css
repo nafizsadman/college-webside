@@ -302,7 +302,7 @@ h3 {
 }
 @media screen and (max-width:400px) {
     .background_3 {
-        top: 295vh;
+        top: 300vh;
         margin-top: 20px;
     }
 }
