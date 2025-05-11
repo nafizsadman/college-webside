@@ -252,7 +252,7 @@ h3 {
     border-radius: 0px 0px 80px 80px;
     background-color: #7ed6df;
     position: absolute;
-    top: 237vh;
+    top: 205vh;
     box-shadow: 0px 8px 26px #95afc0;
 }
 
@@ -290,7 +290,7 @@ h3 {
 }
 @media screen and (max-width:700px) {
     .background_3 {
-        top: 350vh;
+        top: 315vh;
     }
     .text {
         min-width: 300px;
